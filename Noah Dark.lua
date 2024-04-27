@@ -60,12 +60,12 @@ coroutine.wrap(function()
     end
 end)()
 
--- Claim
+-- Hunger
 coroutine.wrap(function()
     while true do
         wait(math.random(250,450))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        loadstring(game:HttpGet("https://pastebin.com/raw/d3R357Rk"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Hunger-spawner/Hunger-Monster-spawner/Hunger%20(spawner).lua"))()
     end
 end)()
 
