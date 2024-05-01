@@ -74,7 +74,7 @@ end)()
 -- Super A60
 coroutine.wrap(function()
     while true do
-        wait(math.random(150,450))
+        wait(math.random(1800,1900))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/a60/main/60.lua"))()
     end
