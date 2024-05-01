@@ -15,7 +15,7 @@ achievementGiver({
     Title = "You exeute DarkNightmare Mode V3",
     Desc = "YOU WANT Smiler:)",
     Reason = "Good luck. Hacker...",
-    Image = "https://github.com/Drop56796/Detph-PIC/blob/main/DepthEntity.png?raw=true"
+    Image = "rbxassetid://13905664807"
 })
 
 -- Custom Door Sounds
