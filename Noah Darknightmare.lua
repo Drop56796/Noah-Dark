@@ -7,6 +7,17 @@ wait(5)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("The Ambush and Rush is Nightmare",true)
 wait(5)
 
+---====== Load achievement giver ======---
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "F**k you Hacker",
+    Desc = "YOU WANT",
+    Reason = "Good luck. You exeute noah dark mode",
+    Image = "rbxassetid://11411321855"
+})
+
 -- Custom Door Sounds
 loadstring(game:HttpGet("https://pastebin.com/raw/iAhTGdBh"))()
 loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
