@@ -80,6 +80,15 @@ coroutine.wrap(function()
     end
 end)()
 
+-- detph
+coroutine.wrap(function()
+    while true do
+        wait(math.random(300,500))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/detph-spawner/main/detph.lua"))()
+    end
+end)()
+
 -- Zombie
 coroutine.wrap(function()
     while true do
