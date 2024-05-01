@@ -65,7 +65,7 @@ coroutine.wrap(function()
     while true do
         wait(math.random(150,450))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/a60/main/a60.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/a60/main/Super%20A60.lua"))()
     end
 end)()
 
