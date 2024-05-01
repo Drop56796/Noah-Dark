@@ -1,4 +1,4 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Noah Dark Mode V2",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Noah Dark Mode V3",true)
 wait(5)
 
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Oppositonpantophobia#0875",true)
@@ -60,12 +60,12 @@ coroutine.wrap(function()
     end
 end)()
 
--- Smiler
+-- Super A60
 coroutine.wrap(function()
     while true do
-        wait(math.random(250,450))
+        wait(math.random(150,450))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Hunger-spawner/Hunger-Monster-spawner/Smiler%20(spawner).lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/a60/main/a60.lua"))()
     end
 end)()
 
