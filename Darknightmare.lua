@@ -1,4 +1,4 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Noah Dark Mode V3",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Darknightmare Mode V3",true)
 wait(5)
 
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Oppositonpantophobia#0875",true)
@@ -12,9 +12,9 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "F**k you Hacker",
+    Title = "You exeute DarkNightmare Mode V3",
     Desc = "YOU WANT Smiler:)",
-    Reason = "Good luck. You exeute noah dark mode",
+    Reason = "Good luck. Hacker...",
     Image = "rbxassetid://12309073114"
 })
 
