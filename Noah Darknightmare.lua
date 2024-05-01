@@ -13,9 +13,9 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 ---====== Display achievement ======---
 achievementGiver({
     Title = "F**k you Hacker",
-    Desc = "YOU WANT",
+    Desc = "YOU WANT Smiler:)",
     Reason = "Good luck. You exeute noah dark mode",
-    Image = "rbxassetid://11411321855"
+    Image = "rbxassetid://12309073114"
 })
 
 -- Custom Door Sounds
