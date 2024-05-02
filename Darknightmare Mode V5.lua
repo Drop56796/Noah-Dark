@@ -1,10 +1,13 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Darknightmare Mode V5",true)
 wait(5)
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Oppositonpantophobia#0875",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Drop56796 and other person",true)
 wait(5)
 
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("The Ambush and Rush is Nightmare",true)
+wait(5)
+
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("F**k You Mother",true)
 wait(5)
 
 ---====== Load achievement giver ======---
@@ -12,9 +15,9 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "You exeute DarkNightmare Mode V5",
-    Desc = "YOU WANT Smiler:)",
-    Reason = "Good luck. Hacker...",
+    Title = "DarkNightmare Mode V5 is exeute",
+    Desc = "You want Smiler:)",
+    Reason = "Good luck. Bad Hacker...",
     Image = "rbxassetid://13905664807"
 })
 
