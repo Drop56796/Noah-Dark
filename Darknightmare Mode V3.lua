@@ -1,4 +1,4 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Darknightmare Mode V4",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Darknightmare Mode V5",true)
 wait(5)
 
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Oppositonpantophobia#0875",true)
@@ -88,6 +88,16 @@ coroutine.wrap(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/detph-spawner/main/detph.lua"))()
     end
 end)()
+
+-- Crazy Hunger
+coroutine.wrap(function()
+    while true do
+        wait(math.random(400,800))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Crazy-Hunger/main/Hunger.lua"))()
+    end
+end)()
+
 
 -- Zombie
 coroutine.wrap(function()
