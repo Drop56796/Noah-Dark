@@ -101,6 +101,14 @@ coroutine.wrap(function()
     end
 end)()
 
+-- terrorist
+coroutine.wrap(function()
+    while true do
+        wait(math.random(750,1000))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Spawn-terrorist/main/Spawn.lua"))()
+    end
+end)()
 
 -- Zombie
 coroutine.wrap(function()
