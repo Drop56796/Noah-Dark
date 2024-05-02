@@ -1,4 +1,4 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Darknightmare Mode V5",true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Darknightmare Mode V6",true)
 wait(5)
 
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Make By Drop56796 and other person",true)
@@ -15,7 +15,7 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 ---====== Display achievement ======---
 achievementGiver({
-    Title = "DarkNightmare Mode V5 is exeute",
+    Title = "DarkNightmare Mode V6 is exeute",
     Desc = "You want Smiler:)",
     Reason = "Good luck. Bad Hacker...",
     Image = "rbxassetid://13905664807"
