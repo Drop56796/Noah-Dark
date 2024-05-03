@@ -113,7 +113,7 @@ end)()
 -- G95
 coroutine.wrap(function()
     while true do
-        wait(math.random(899,999))
+        wait(700)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/G95/main/G95.lua"))()
     end
